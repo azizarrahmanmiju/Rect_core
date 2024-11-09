@@ -1,21 +1,18 @@
 
-import './App.css'
+import './App.css';
+import Counter from './Counterreact';
+
 
 function App() {
-
-  const btnclick = (value) => {
-    alert(`${value} button clicked`)
-  }
 
   return (
     <>
 
       <h3>React core Concent ration</h3>
+      <Counter></Counter>
 
-      <button onClick={() => btnclick('first')}>first button </button>
-      <button onClick={() => btnclick('second')}>second button </button>
-      <button onClick={() => btnclick('third')}>third button </button>
-      <button onClick={() => btnclick('fourth')}>fourth button </button>
+
+
 
     </>
   )
